@@ -24,17 +24,32 @@ bun dev
 - Folder define route
 - Each folder define a path
 
-### Root Group
+### Rout Group
 
 - enclose folder name in parenthesis and group multiple folder/roots
 
-### Dynamic Root
+### Dynamic Rout
+- profile/[id]
+- To make dynamic make a folder inside enclosed by [ ]
 
 ### Catch All routes
 - [...page]
 
 ### Optional 
-- To make optional enclose with []
+- To make optional enclose with [ ]
 
 - [page]
 
+### Parallel Routes
+- make parallet routes 
+- main folder
+- "@routeNameFolder1"
+- "@routeNameFolder2"
+
+### Layout
+
+---
+
+## Link
+
+link is a built-in component used instead of "anchor tag <a></a>"
